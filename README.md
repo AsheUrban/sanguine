@@ -58,11 +58,11 @@ Logging should take under 15 seconds. Tap what's present, tap again to increase 
 
 Insights require patience and we're honest about that. "Keep logging — patterns appear after about a week" is better than inventing correlations from three data points.
 
-### 5. Open source
+### 5. Source-available for trust
 
-Our privacy claim is "we can't see your data." Open source means you don't have to trust us — you can verify. No hidden analytics, no secret endpoints, no telemetry we forgot to mention.
+Our privacy claim is "we can't see your data." Making the source code public means you don't have to trust us — you can verify. No hidden analytics, no secret endpoints, no telemetry we forgot to mention.
 
-The moat isn't code. It's the design thinking, the insight algorithms, the UX. Open sourcing the implementation invites trust and accountability from exactly the community that cares most about this.
+The code is publicly readable but not licensed for reuse. This protects the product while giving users, security researchers, and journalists full ability to audit our privacy claims. Transparency without exploitation.
 
 ---
 
@@ -210,14 +210,6 @@ Development has not started.
 
 ---
 
-## **License**
+## License
 
-**All Rights Reserved** — This project is proprietary software.
-
-Unauthorized use, reproduction, modification, or distribution is prohibited without explicit written permission from the author.
-
-For inquiries regarding licensing or commercial use, contact: [theasheurban@gmail.com](mailto:theasheurban@gmail.com)
-
-Copyright © 2026
-*Ashe Urban*
-
+Sanguine is **source-available, not open source.** The code is public so anyone can verify our privacy claims. It is not licensed for use, modification, or redistribution. See [LICENSE.md](LICENSE.md) for full terms.
