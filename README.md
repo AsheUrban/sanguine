@@ -210,6 +210,14 @@ Development has not started.
 
 ---
 
-## License
+## **License**
 
-TBD — will be open source. License selection pending.
+**All Rights Reserved** — This project is proprietary software.
+
+Unauthorized use, reproduction, modification, or distribution is prohibited without explicit written permission from the author.
+
+For inquiries regarding licensing or commercial use, contact: [theasheurban@gmail.com](mailto:theasheurban@gmail.com)
+
+Copyright © 2026
+*Ashe Urban*
+
