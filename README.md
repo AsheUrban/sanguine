@@ -8,6 +8,15 @@ Cycles are one optional lens. If you menstruate, that's one pattern source. If y
 
 Everything runs on your device. There is no server, no account, no data collection of any kind.
 
+## Contents
+
+- [Values](#values)
+- [Design](#design)
+- [Planned Architecture & Stack](#planned-architecture)
+- [Status](#status)
+- [License](#license)
+- [Wireframes](#wireframes)
+
 ---
 
 ## Values
@@ -50,7 +59,9 @@ The home screen centers on an adaptive ring that represents your cycle. It start
 
 ---
 
-## Architecture
+## Planned Architecture & Stack
+
+Sanguine will not feature user accounts. All information is stored on device, and belongs only to the user.
 
 ```
 User's device
@@ -64,24 +75,67 @@ User's device
 └── Manual encrypted export (generic filename, AES-256, user password)
 ```
 
-No server. No API. No account.
-
----
-
-## Stack
-
 React Native + Expo, Expo Router, react-native-mmkv, Zustand, React Native Reanimated + Gesture Handler, react-native-svg, expo-print, expo-notifications (local only). Jest + RNTL, Detox for E2E. EAS Build + EAS Update.
-
-No analytics SDK. No crash reporting. No remote config. No auth library. No networking library.
 
 ---
 
 ## Status
 
-Active design and early development.
+Active design, pre development.
 
 ---
 
 ## License
 
 Source-available. Code is public for verification, not licensed for reuse. See [LICENSE.md](LICENSE.md).
+
+---
+
+## Wireframes
+
+Rendered from the design prototype.
+
+<p align="center">
+  <img src="assets/images/README_/01-onboarding-welcome.png" alt="Onboarding — Welcome" width="300"><br>
+  <sub>Onboarding · Welcome</sub>
+</p>
+
+<p align="center">
+  <img src="assets/images/README_/02-onboarding-sources.png" alt="Onboarding — Pattern sources" width="300"><br>
+  <sub>Onboarding · Pattern sources</sub>
+</p>
+
+<p align="center">
+  <img src="assets/images/README_/03-onboarding-conditions.png" alt="Onboarding — Conditions" width="300"><br>
+  <sub>Onboarding · Conditions</sub>
+</p>
+
+<p align="center">
+  <img src="assets/images/README_/04-onboarding-reminder.png" alt="Onboarding — Daily reminder" width="300"><br>
+  <sub>Onboarding · Daily reminder</sub>
+</p>
+
+<p align="center">
+  <img src="assets/images/README_/05-home-established.png" alt="Home — Established cycle" width="300"><br>
+  <sub>Home · Established cycle</sub>
+</p>
+
+<p align="center">
+  <img src="assets/images/README_/06-home-emerging.png" alt="Home — Emerging pattern" width="300"><br>
+  <sub>Home · Emerging pattern</sub>
+</p>
+
+<p align="center">
+  <img src="assets/images/README_/07-home-empty.png" alt="Home — Listening (empty)" width="300"><br>
+  <sub>Home · Listening (empty)</sub>
+</p>
+
+<p align="center">
+  <img src="assets/images/README_/08-insights.png" alt="Insights — Patterns and calendar" width="300"><br>
+  <sub>Insights · Patterns &amp; calendar</sub>
+</p>
+
+<p align="center">
+  <img src="assets/images/README_/09-check-in.png" alt="Daily check-in" width="300"><br>
+  <sub>Check-in</sub>
+</p>
